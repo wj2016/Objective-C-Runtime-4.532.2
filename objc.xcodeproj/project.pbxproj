@@ -157,6 +157,103 @@
 		83E57598121E8A1600295464 /* objc-file.h in Headers */ = {isa = PBXBuildFile; fileRef = 83BE02E60FCCB24D00661494 /* objc-file.h */; };
 		83EB007B121C9EC200B92C16 /* objc-sel-table.s in Sources */ = {isa = PBXBuildFile; fileRef = 83EB007A121C9EC200B92C16 /* objc-sel-table.s */; };
 		87BB4EA70EC39854005D08E1 /* objc-probes.d in Sources */ = {isa = PBXBuildFile; fileRef = 87BB4E900EC39633005D08E1 /* objc-probes.d */; };
+		9521A7641BBC90A100F074E5 /* auto_zone.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A72B1BBC90A100F074E5 /* auto_zone.h */; };
+		9521A7651BBC90A100F074E5 /* auto_zone.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A72B1BBC90A100F074E5 /* auto_zone.h */; };
+		9521A7661BBC90A100F074E5 /* Block_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A72C1BBC90A100F074E5 /* Block_private.h */; };
+		9521A7671BBC90A100F074E5 /* Block_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A72C1BBC90A100F074E5 /* Block_private.h */; };
+		9521A7681BBC90A100F074E5 /* CrashReporterClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A72D1BBC90A100F074E5 /* CrashReporterClient.h */; };
+		9521A7691BBC90A100F074E5 /* CrashReporterClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A72D1BBC90A100F074E5 /* CrashReporterClient.h */; };
+		9521A76A1BBC90A100F074E5 /* benchmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A72F1BBC90A100F074E5 /* benchmark.h */; };
+		9521A76B1BBC90A100F074E5 /* benchmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A72F1BBC90A100F074E5 /* benchmark.h */; };
+		9521A76C1BBC90A100F074E5 /* private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7301BBC90A100F074E5 /* private.h */; };
+		9521A76D1BBC90A100F074E5 /* private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7301BBC90A100F074E5 /* private.h */; };
+		9521A76E1BBC90A100F074E5 /* queue_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7311BBC90A100F074E5 /* queue_private.h */; };
+		9521A76F1BBC90A100F074E5 /* queue_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7311BBC90A100F074E5 /* queue_private.h */; };
+		9521A7701BBC90A100F074E5 /* source_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7321BBC90A100F074E5 /* source_private.h */; };
+		9521A7711BBC90A100F074E5 /* source_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7321BBC90A100F074E5 /* source_private.h */; };
+		9521A7721BBC90A100F074E5 /* OSCrossEndian.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7341BBC90A100F074E5 /* OSCrossEndian.h */; };
+		9521A7731BBC90A100F074E5 /* OSCrossEndian.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7341BBC90A100F074E5 /* OSCrossEndian.h */; };
+		9521A7741BBC90A100F074E5 /* clock_reply_server.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7361BBC90A100F074E5 /* clock_reply_server.h */; };
+		9521A7751BBC90A100F074E5 /* clock_reply_server.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7361BBC90A100F074E5 /* clock_reply_server.h */; };
+		9521A7761BBC90A100F074E5 /* exc_server.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7371BBC90A100F074E5 /* exc_server.h */; };
+		9521A7771BBC90A100F074E5 /* exc_server.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7371BBC90A100F074E5 /* exc_server.h */; };
+		9521A7781BBC90A100F074E5 /* mach_exc_server.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7381BBC90A100F074E5 /* mach_exc_server.h */; };
+		9521A7791BBC90A100F074E5 /* mach_exc_server.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7381BBC90A100F074E5 /* mach_exc_server.h */; };
+		9521A77A1BBC90A100F074E5 /* notify_server.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7391BBC90A100F074E5 /* notify_server.h */; };
+		9521A77B1BBC90A100F074E5 /* notify_server.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7391BBC90A100F074E5 /* notify_server.h */; };
+		9521A77C1BBC90A100F074E5 /* dyld_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A73B1BBC90A100F074E5 /* dyld_priv.h */; };
+		9521A77D1BBC90A100F074E5 /* dyld_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A73B1BBC90A100F074E5 /* dyld_priv.h */; };
+		9521A77E1BBC90A100F074E5 /* asm.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A73D1BBC90A100F074E5 /* asm.h */; };
+		9521A77F1BBC90A100F074E5 /* asm.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A73D1BBC90A100F074E5 /* asm.h */; };
+		9521A7801BBC90A100F074E5 /* ast.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A73E1BBC90A100F074E5 /* ast.h */; };
+		9521A7811BBC90A100F074E5 /* ast.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A73E1BBC90A100F074E5 /* ast.h */; };
+		9521A7821BBC90A100F074E5 /* ast_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A73F1BBC90A100F074E5 /* ast_types.h */; };
+		9521A7831BBC90A100F074E5 /* ast_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A73F1BBC90A100F074E5 /* ast_types.h */; };
+		9521A7841BBC90A100F074E5 /* commpage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7401BBC90A100F074E5 /* commpage.h */; };
+		9521A7851BBC90A100F074E5 /* commpage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7401BBC90A100F074E5 /* commpage.h */; };
+		9521A7861BBC90A100F074E5 /* cpu_affinity.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7411BBC90A100F074E5 /* cpu_affinity.h */; };
+		9521A7871BBC90A100F074E5 /* cpu_affinity.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7411BBC90A100F074E5 /* cpu_affinity.h */; };
+		9521A7881BBC90A100F074E5 /* cpu_capabilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7421BBC90A100F074E5 /* cpu_capabilities.h */; };
+		9521A7891BBC90A100F074E5 /* cpu_capabilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7421BBC90A100F074E5 /* cpu_capabilities.h */; };
+		9521A78A1BBC90A100F074E5 /* cpu_data.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7431BBC90A100F074E5 /* cpu_data.h */; };
+		9521A78B1BBC90A100F074E5 /* cpu_data.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7431BBC90A100F074E5 /* cpu_data.h */; };
+		9521A78C1BBC90A100F074E5 /* cpu_number.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7441BBC90A100F074E5 /* cpu_number.h */; };
+		9521A78D1BBC90A100F074E5 /* cpu_number.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7441BBC90A100F074E5 /* cpu_number.h */; };
+		9521A78E1BBC90A100F074E5 /* db_machdep.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7451BBC90A100F074E5 /* db_machdep.h */; };
+		9521A78F1BBC90A100F074E5 /* db_machdep.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7451BBC90A100F074E5 /* db_machdep.h */; };
+		9521A7901BBC90A100F074E5 /* endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7461BBC90A100F074E5 /* endian.h */; };
+		9521A7911BBC90A100F074E5 /* endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7461BBC90A100F074E5 /* endian.h */; };
+		9521A7921BBC90A100F074E5 /* io_map_entries.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7471BBC90A100F074E5 /* io_map_entries.h */; };
+		9521A7931BBC90A100F074E5 /* io_map_entries.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7471BBC90A100F074E5 /* io_map_entries.h */; };
+		9521A7941BBC90A100F074E5 /* lock.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7481BBC90A100F074E5 /* lock.h */; };
+		9521A7951BBC90A100F074E5 /* lock.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7481BBC90A100F074E5 /* lock.h */; };
+		9521A7961BBC90A100F074E5 /* locks.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7491BBC90A100F074E5 /* locks.h */; };
+		9521A7971BBC90A100F074E5 /* locks.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7491BBC90A100F074E5 /* locks.h */; };
+		9521A7981BBC90A100F074E5 /* machine_cpu.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A74A1BBC90A100F074E5 /* machine_cpu.h */; };
+		9521A7991BBC90A100F074E5 /* machine_cpu.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A74A1BBC90A100F074E5 /* machine_cpu.h */; };
+		9521A79A1BBC90A100F074E5 /* machine_routines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A74B1BBC90A100F074E5 /* machine_routines.h */; };
+		9521A79B1BBC90A100F074E5 /* machine_routines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A74B1BBC90A100F074E5 /* machine_routines.h */; };
+		9521A79C1BBC90A100F074E5 /* machine_rpc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A74C1BBC90A100F074E5 /* machine_rpc.h */; };
+		9521A79D1BBC90A100F074E5 /* machine_rpc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A74C1BBC90A100F074E5 /* machine_rpc.h */; };
+		9521A79E1BBC90A100F074E5 /* machlimits.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A74D1BBC90A100F074E5 /* machlimits.h */; };
+		9521A79F1BBC90A100F074E5 /* machlimits.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A74D1BBC90A100F074E5 /* machlimits.h */; };
+		9521A7A01BBC90A100F074E5 /* machparam.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A74E1BBC90A100F074E5 /* machparam.h */; };
+		9521A7A11BBC90A100F074E5 /* machparam.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A74E1BBC90A100F074E5 /* machparam.h */; };
+		9521A7A21BBC90A100F074E5 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 9521A74F1BBC90A100F074E5 /* Makefile */; };
+		9521A7A31BBC90A100F074E5 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 9521A74F1BBC90A100F074E5 /* Makefile */; };
+		9521A7A41BBC90A100F074E5 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 9521A74F1BBC90A100F074E5 /* Makefile */; };
+		9521A7A51BBC90A100F074E5 /* pmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7501BBC90A100F074E5 /* pmap.h */; };
+		9521A7A61BBC90A100F074E5 /* pmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7501BBC90A100F074E5 /* pmap.h */; };
+		9521A7A71BBC90A100F074E5 /* sched_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7511BBC90A100F074E5 /* sched_param.h */; };
+		9521A7A81BBC90A100F074E5 /* sched_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7511BBC90A100F074E5 /* sched_param.h */; };
+		9521A7A91BBC90A100F074E5 /* setjmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7521BBC90A100F074E5 /* setjmp.h */; };
+		9521A7AA1BBC90A100F074E5 /* setjmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7521BBC90A100F074E5 /* setjmp.h */; };
+		9521A7AB1BBC90A100F074E5 /* simple_lock.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7531BBC90A100F074E5 /* simple_lock.h */; };
+		9521A7AC1BBC90A100F074E5 /* simple_lock.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7531BBC90A100F074E5 /* simple_lock.h */; };
+		9521A7AD1BBC90A100F074E5 /* task.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7541BBC90A100F074E5 /* task.h */; };
+		9521A7AE1BBC90A100F074E5 /* task.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7541BBC90A100F074E5 /* task.h */; };
+		9521A7AF1BBC90A100F074E5 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7551BBC90A100F074E5 /* thread.h */; };
+		9521A7B01BBC90A100F074E5 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7551BBC90A100F074E5 /* thread.h */; };
+		9521A7B11BBC90A100F074E5 /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7561BBC90A100F074E5 /* timer.h */; };
+		9521A7B21BBC90A100F074E5 /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7561BBC90A100F074E5 /* timer.h */; };
+		9521A7B31BBC90A100F074E5 /* trap.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7571BBC90A100F074E5 /* trap.h */; };
+		9521A7B41BBC90A100F074E5 /* trap.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7571BBC90A100F074E5 /* trap.h */; };
+		9521A7B51BBC90A100F074E5 /* vm_tuning.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7581BBC90A100F074E5 /* vm_tuning.h */; };
+		9521A7B61BBC90A100F074E5 /* vm_tuning.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7581BBC90A100F074E5 /* vm_tuning.h */; };
+		9521A7B71BBC90A100F074E5 /* xpr.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7591BBC90A100F074E5 /* xpr.h */; };
+		9521A7B81BBC90A100F074E5 /* xpr.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7591BBC90A100F074E5 /* xpr.h */; };
+		9521A7B91BBC90A100F074E5 /* objc-shared-cache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A75A1BBC90A100F074E5 /* objc-shared-cache.h */; };
+		9521A7BA1BBC90A100F074E5 /* objc-shared-cache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A75A1BBC90A100F074E5 /* objc-shared-cache.h */; };
+		9521A7BB1BBC90A100F074E5 /* cpu_capabilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A75D1BBC90A100F074E5 /* cpu_capabilities.h */; };
+		9521A7BC1BBC90A100F074E5 /* cpu_capabilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A75D1BBC90A100F074E5 /* cpu_capabilities.h */; };
+		9521A7BD1BBC90A100F074E5 /* cpu_capabilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A75F1BBC90A100F074E5 /* cpu_capabilities.h */; };
+		9521A7BE1BBC90A100F074E5 /* cpu_capabilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A75F1BBC90A100F074E5 /* cpu_capabilities.h */; };
+		9521A7BF1BBC90A100F074E5 /* cpu_capabilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7611BBC90A100F074E5 /* cpu_capabilities.h */; };
+		9521A7C01BBC90A100F074E5 /* cpu_capabilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7611BBC90A100F074E5 /* cpu_capabilities.h */; };
+		9521A7C11BBC90A100F074E5 /* pthread_machdep.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7621BBC90A100F074E5 /* pthread_machdep.h */; };
+		9521A7C21BBC90A100F074E5 /* pthread_machdep.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7621BBC90A100F074E5 /* pthread_machdep.h */; };
+		9521A7C31BBC90A100F074E5 /* vproc_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7631BBC90A100F074E5 /* vproc_priv.h */; };
+		9521A7C41BBC90A100F074E5 /* vproc_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521A7631BBC90A100F074E5 /* vproc_priv.h */; };
 		9672F7EE14D5F488007CEC96 /* NSObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9672F7ED14D5F488007CEC96 /* NSObject.mm */; };
 		9672F7EF14D5F488007CEC96 /* NSObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9672F7ED14D5F488007CEC96 /* NSObject.mm */; };
 		BC07A00C0EF72D360014EC61 /* objc-auto-dump.h in Headers */ = {isa = PBXBuildFile; fileRef = BC07A00B0EF72D360014EC61 /* objc-auto-dump.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -257,6 +354,54 @@
 		83E50D2B0FF19E9E00D74C19 /* IndigoSDK.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = IndigoSDK.xcconfig; path = AppleInternal/XcodeConfig/IndigoSDK.xcconfig; sourceTree = DEVELOPER_DIR; };
 		83EB007A121C9EC200B92C16 /* objc-sel-table.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-sel-table.s"; path = "runtime/objc-sel-table.s"; sourceTree = "<group>"; };
 		87BB4E900EC39633005D08E1 /* objc-probes.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; name = "objc-probes.d"; path = "runtime/objc-probes.d"; sourceTree = "<group>"; };
+		9521A72B1BBC90A100F074E5 /* auto_zone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = auto_zone.h; sourceTree = "<group>"; };
+		9521A72C1BBC90A100F074E5 /* Block_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block_private.h; sourceTree = "<group>"; };
+		9521A72D1BBC90A100F074E5 /* CrashReporterClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashReporterClient.h; sourceTree = "<group>"; };
+		9521A72F1BBC90A100F074E5 /* benchmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = benchmark.h; sourceTree = "<group>"; };
+		9521A7301BBC90A100F074E5 /* private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = private.h; sourceTree = "<group>"; };
+		9521A7311BBC90A100F074E5 /* queue_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue_private.h; sourceTree = "<group>"; };
+		9521A7321BBC90A100F074E5 /* source_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = source_private.h; sourceTree = "<group>"; };
+		9521A7341BBC90A100F074E5 /* OSCrossEndian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCrossEndian.h; sourceTree = "<group>"; };
+		9521A7361BBC90A100F074E5 /* clock_reply_server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clock_reply_server.h; sourceTree = "<group>"; };
+		9521A7371BBC90A100F074E5 /* exc_server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exc_server.h; sourceTree = "<group>"; };
+		9521A7381BBC90A100F074E5 /* mach_exc_server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mach_exc_server.h; sourceTree = "<group>"; };
+		9521A7391BBC90A100F074E5 /* notify_server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notify_server.h; sourceTree = "<group>"; };
+		9521A73B1BBC90A100F074E5 /* dyld_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dyld_priv.h; sourceTree = "<group>"; };
+		9521A73D1BBC90A100F074E5 /* asm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asm.h; sourceTree = "<group>"; };
+		9521A73E1BBC90A100F074E5 /* ast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ast.h; sourceTree = "<group>"; };
+		9521A73F1BBC90A100F074E5 /* ast_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ast_types.h; sourceTree = "<group>"; };
+		9521A7401BBC90A100F074E5 /* commpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commpage.h; sourceTree = "<group>"; };
+		9521A7411BBC90A100F074E5 /* cpu_affinity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu_affinity.h; sourceTree = "<group>"; };
+		9521A7421BBC90A100F074E5 /* cpu_capabilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu_capabilities.h; sourceTree = "<group>"; };
+		9521A7431BBC90A100F074E5 /* cpu_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu_data.h; sourceTree = "<group>"; };
+		9521A7441BBC90A100F074E5 /* cpu_number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu_number.h; sourceTree = "<group>"; };
+		9521A7451BBC90A100F074E5 /* db_machdep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = db_machdep.h; sourceTree = "<group>"; };
+		9521A7461BBC90A100F074E5 /* endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endian.h; sourceTree = "<group>"; };
+		9521A7471BBC90A100F074E5 /* io_map_entries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = io_map_entries.h; sourceTree = "<group>"; };
+		9521A7481BBC90A100F074E5 /* lock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lock.h; sourceTree = "<group>"; };
+		9521A7491BBC90A100F074E5 /* locks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = locks.h; sourceTree = "<group>"; };
+		9521A74A1BBC90A100F074E5 /* machine_cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = machine_cpu.h; sourceTree = "<group>"; };
+		9521A74B1BBC90A100F074E5 /* machine_routines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = machine_routines.h; sourceTree = "<group>"; };
+		9521A74C1BBC90A100F074E5 /* machine_rpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = machine_rpc.h; sourceTree = "<group>"; };
+		9521A74D1BBC90A100F074E5 /* machlimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = machlimits.h; sourceTree = "<group>"; };
+		9521A74E1BBC90A100F074E5 /* machparam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = machparam.h; sourceTree = "<group>"; };
+		9521A74F1BBC90A100F074E5 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		9521A7501BBC90A100F074E5 /* pmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pmap.h; sourceTree = "<group>"; };
+		9521A7511BBC90A100F074E5 /* sched_param.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sched_param.h; sourceTree = "<group>"; };
+		9521A7521BBC90A100F074E5 /* setjmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setjmp.h; sourceTree = "<group>"; };
+		9521A7531BBC90A100F074E5 /* simple_lock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simple_lock.h; sourceTree = "<group>"; };
+		9521A7541BBC90A100F074E5 /* task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = task.h; sourceTree = "<group>"; };
+		9521A7551BBC90A100F074E5 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		9521A7561BBC90A100F074E5 /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		9521A7571BBC90A100F074E5 /* trap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trap.h; sourceTree = "<group>"; };
+		9521A7581BBC90A100F074E5 /* vm_tuning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vm_tuning.h; sourceTree = "<group>"; };
+		9521A7591BBC90A100F074E5 /* xpr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xpr.h; sourceTree = "<group>"; };
+		9521A75A1BBC90A100F074E5 /* objc-shared-cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "objc-shared-cache.h"; sourceTree = "<group>"; };
+		9521A75D1BBC90A100F074E5 /* cpu_capabilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu_capabilities.h; sourceTree = "<group>"; };
+		9521A75F1BBC90A100F074E5 /* cpu_capabilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu_capabilities.h; sourceTree = "<group>"; };
+		9521A7611BBC90A100F074E5 /* cpu_capabilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu_capabilities.h; sourceTree = "<group>"; };
+		9521A7621BBC90A100F074E5 /* pthread_machdep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pthread_machdep.h; sourceTree = "<group>"; };
+		9521A7631BBC90A100F074E5 /* vproc_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vproc_priv.h; sourceTree = "<group>"; };
 		9672F7ED14D5F488007CEC96 /* NSObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NSObject.mm; path = runtime/NSObject.mm; sourceTree = "<group>"; };
 		BC07A00B0EF72D360014EC61 /* objc-auto-dump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "objc-auto-dump.h"; path = "runtime/objc-auto-dump.h"; sourceTree = "<group>"; };
 		BC07A0100EF72D9C0014EC61 /* objc-auto-dump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "objc-auto-dump.m"; path = "runtime/objc-auto-dump.m"; sourceTree = "<group>"; };
@@ -298,6 +443,7 @@
 			isa = PBXGroup;
 			children = (
 				BC8B5D1212D3D48100C78A5B /* libauto.dylib */,
+				9521A72A1BBC90A100F074E5 /* include */,
 				838485C60D6D687700CEA253 /* Public Headers */,
 				838485C70D6D688200CEA253 /* Private Headers */,
 				8384862A0D6D6ABC00CEA253 /* Project Headers */,
@@ -338,7 +484,6 @@
 				838485DA0D6D68A200CEA253 /* objc-loadmethod.mm */,
 				838485DB0D6D68A200CEA253 /* objc-lockdebug.mm */,
 				83725F4914CA5BFA0014370E /* objc-opt.mm */,
-				831C85D40E10CF850066E64C /* objc-os.mm */,
 				831C85D40E10CF850066E64C /* objc-os.mm */,
 				393CEABF0DC69E3E000B69DE /* objc-references.mm */,
 				838485E10D6D68A200CEA253 /* objc-runtime-new.mm */,
@@ -454,6 +599,133 @@
 			name = "Project Headers";
 			sourceTree = "<group>";
 		};
+		9521A72A1BBC90A100F074E5 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				9521A72B1BBC90A100F074E5 /* auto_zone.h */,
+				9521A72C1BBC90A100F074E5 /* Block_private.h */,
+				9521A72D1BBC90A100F074E5 /* CrashReporterClient.h */,
+				9521A72E1BBC90A100F074E5 /* dispatch */,
+				9521A7331BBC90A100F074E5 /* libkern */,
+				9521A7351BBC90A100F074E5 /* mach */,
+				9521A73A1BBC90A100F074E5 /* mach-o */,
+				9521A73C1BBC90A100F074E5 /* machine */,
+				9521A75A1BBC90A100F074E5 /* objc-shared-cache.h */,
+				9521A75B1BBC90A100F074E5 /* System */,
+				9521A7631BBC90A100F074E5 /* vproc_priv.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		9521A72E1BBC90A100F074E5 /* dispatch */ = {
+			isa = PBXGroup;
+			children = (
+				9521A72F1BBC90A100F074E5 /* benchmark.h */,
+				9521A7301BBC90A100F074E5 /* private.h */,
+				9521A7311BBC90A100F074E5 /* queue_private.h */,
+				9521A7321BBC90A100F074E5 /* source_private.h */,
+			);
+			path = dispatch;
+			sourceTree = "<group>";
+		};
+		9521A7331BBC90A100F074E5 /* libkern */ = {
+			isa = PBXGroup;
+			children = (
+				9521A7341BBC90A100F074E5 /* OSCrossEndian.h */,
+			);
+			path = libkern;
+			sourceTree = "<group>";
+		};
+		9521A7351BBC90A100F074E5 /* mach */ = {
+			isa = PBXGroup;
+			children = (
+				9521A7361BBC90A100F074E5 /* clock_reply_server.h */,
+				9521A7371BBC90A100F074E5 /* exc_server.h */,
+				9521A7381BBC90A100F074E5 /* mach_exc_server.h */,
+				9521A7391BBC90A100F074E5 /* notify_server.h */,
+			);
+			path = mach;
+			sourceTree = "<group>";
+		};
+		9521A73A1BBC90A100F074E5 /* mach-o */ = {
+			isa = PBXGroup;
+			children = (
+				9521A73B1BBC90A100F074E5 /* dyld_priv.h */,
+			);
+			path = "mach-o";
+			sourceTree = "<group>";
+		};
+		9521A73C1BBC90A100F074E5 /* machine */ = {
+			isa = PBXGroup;
+			children = (
+				9521A73D1BBC90A100F074E5 /* asm.h */,
+				9521A73E1BBC90A100F074E5 /* ast.h */,
+				9521A73F1BBC90A100F074E5 /* ast_types.h */,
+				9521A7401BBC90A100F074E5 /* commpage.h */,
+				9521A7411BBC90A100F074E5 /* cpu_affinity.h */,
+				9521A7421BBC90A100F074E5 /* cpu_capabilities.h */,
+				9521A7431BBC90A100F074E5 /* cpu_data.h */,
+				9521A7441BBC90A100F074E5 /* cpu_number.h */,
+				9521A7451BBC90A100F074E5 /* db_machdep.h */,
+				9521A7461BBC90A100F074E5 /* endian.h */,
+				9521A7471BBC90A100F074E5 /* io_map_entries.h */,
+				9521A7481BBC90A100F074E5 /* lock.h */,
+				9521A7491BBC90A100F074E5 /* locks.h */,
+				9521A74A1BBC90A100F074E5 /* machine_cpu.h */,
+				9521A74B1BBC90A100F074E5 /* machine_routines.h */,
+				9521A74C1BBC90A100F074E5 /* machine_rpc.h */,
+				9521A74D1BBC90A100F074E5 /* machlimits.h */,
+				9521A74E1BBC90A100F074E5 /* machparam.h */,
+				9521A74F1BBC90A100F074E5 /* Makefile */,
+				9521A7501BBC90A100F074E5 /* pmap.h */,
+				9521A7511BBC90A100F074E5 /* sched_param.h */,
+				9521A7521BBC90A100F074E5 /* setjmp.h */,
+				9521A7531BBC90A100F074E5 /* simple_lock.h */,
+				9521A7541BBC90A100F074E5 /* task.h */,
+				9521A7551BBC90A100F074E5 /* thread.h */,
+				9521A7561BBC90A100F074E5 /* timer.h */,
+				9521A7571BBC90A100F074E5 /* trap.h */,
+				9521A7581BBC90A100F074E5 /* vm_tuning.h */,
+				9521A7591BBC90A100F074E5 /* xpr.h */,
+			);
+			path = machine;
+			sourceTree = "<group>";
+		};
+		9521A75B1BBC90A100F074E5 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				9521A75C1BBC90A100F074E5 /* i386 */,
+				9521A75E1BBC90A100F074E5 /* machine */,
+				9521A7601BBC90A100F074E5 /* ppc */,
+				9521A7621BBC90A100F074E5 /* pthread_machdep.h */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		9521A75C1BBC90A100F074E5 /* i386 */ = {
+			isa = PBXGroup;
+			children = (
+				9521A75D1BBC90A100F074E5 /* cpu_capabilities.h */,
+			);
+			path = i386;
+			sourceTree = "<group>";
+		};
+		9521A75E1BBC90A100F074E5 /* machine */ = {
+			isa = PBXGroup;
+			children = (
+				9521A75F1BBC90A100F074E5 /* cpu_capabilities.h */,
+			);
+			path = machine;
+			sourceTree = "<group>";
+		};
+		9521A7601BBC90A100F074E5 /* ppc */ = {
+			isa = PBXGroup;
+			children = (
+				9521A7611BBC90A100F074E5 /* cpu_capabilities.h */,
+			);
+			path = ppc;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -461,39 +733,86 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9521A7A61BBC90A100F074E5 /* pmap.h in Headers */,
+				9521A7AC1BBC90A100F074E5 /* simple_lock.h in Headers */,
 				83E50CF40FF19E8200D74C19 /* hashtable.h in Headers */,
+				9521A7C21BBC90A100F074E5 /* pthread_machdep.h in Headers */,
 				83E50CDB0FF19E8200D74C19 /* hashtable2.h in Headers */,
 				83E50CF10FF19E8200D74C19 /* List.h in Headers */,
+				9521A7811BBC90A100F074E5 /* ast.h in Headers */,
 				83E50CDC0FF19E8200D74C19 /* maptable.h in Headers */,
+				9521A7971BBC90A100F074E5 /* locks.h in Headers */,
 				83E50CF20FF19E8200D74C19 /* message.h in Headers */,
 				83E57595121E892100295464 /* objc-abi.h in Headers */,
 				83E50CF30FF19E8200D74C19 /* objc-accessors.h in Headers */,
+				9521A7C41BBC90A100F074E5 /* vproc_priv.h in Headers */,
 				83E50CDD0FF19E8200D74C19 /* objc-api.h in Headers */,
+				9521A7851BBC90A100F074E5 /* commpage.h in Headers */,
+				9521A7A11BBC90A100F074E5 /* machparam.h in Headers */,
+				9521A76F1BBC90A100F074E5 /* queue_private.h in Headers */,
+				9521A7791BBC90A100F074E5 /* mach_exc_server.h in Headers */,
 				83E50CDE0FF19E8200D74C19 /* objc-auto.h in Headers */,
+				9521A7BE1BBC90A100F074E5 /* cpu_capabilities.h in Headers */,
+				9521A7BC1BBC90A100F074E5 /* cpu_capabilities.h in Headers */,
+				9521A7AE1BBC90A100F074E5 /* task.h in Headers */,
+				9521A7891BBC90A100F074E5 /* cpu_capabilities.h in Headers */,
+				9521A7651BBC90A100F074E5 /* auto_zone.h in Headers */,
+				9521A78F1BBC90A100F074E5 /* db_machdep.h in Headers */,
+				9521A7B61BBC90A100F074E5 /* vm_tuning.h in Headers */,
+				9521A7751BBC90A100F074E5 /* clock_reply_server.h in Headers */,
+				9521A7B01BBC90A100F074E5 /* thread.h in Headers */,
+				9521A77F1BBC90A100F074E5 /* asm.h in Headers */,
 				83E50CDF0FF19E8200D74C19 /* objc-auto-dump.h in Headers */,
+				9521A7A81BBC90A100F074E5 /* sched_param.h in Headers */,
+				9521A7831BBC90A100F074E5 /* ast_types.h in Headers */,
+				9521A7671BBC90A100F074E5 /* Block_private.h in Headers */,
+				9521A7BA1BBC90A100F074E5 /* objc-shared-cache.h in Headers */,
 				83E50CE00FF19E8200D74C19 /* objc-class.h in Headers */,
 				83E50CE10FF19E8200D74C19 /* objc-config.h in Headers */,
 				83E50CE20FF19E8200D74C19 /* objc-exception.h in Headers */,
 				83E57596121E896200295464 /* objc-file-old.h in Headers */,
 				83E57598121E8A1600295464 /* objc-file.h in Headers */,
+				9521A76B1BBC90A100F074E5 /* benchmark.h in Headers */,
 				83E50CF70FF19E8200D74C19 /* objc-gdb.h in Headers */,
 				83E50CE30FF19E8200D74C19 /* objc-initialize.h in Headers */,
 				83E50CF80FF19E8200D74C19 /* objc-internal.h in Headers */,
+				9521A77D1BBC90A100F074E5 /* dyld_priv.h in Headers */,
 				83E50CE40FF19E8200D74C19 /* objc-load.h in Headers */,
 				83E50CE50FF19E8200D74C19 /* objc-loadmethod.h in Headers */,
 				83E50CF60FF19E8200D74C19 /* objc-os.h in Headers */,
+				9521A7711BBC90A100F074E5 /* source_private.h in Headers */,
 				83E50CE60FF19E8200D74C19 /* objc-private.h in Headers */,
+				9521A7B41BBC90A100F074E5 /* trap.h in Headers */,
+				9521A7B21BBC90A100F074E5 /* timer.h in Headers */,
 				83E50CF50FF19E8200D74C19 /* objc-references.h in Headers */,
+				9521A7911BBC90A100F074E5 /* endian.h in Headers */,
 				83E50CE80FF19E8200D74C19 /* objc-runtime-new.h in Headers */,
+				9521A7951BBC90A100F074E5 /* lock.h in Headers */,
+				9521A7691BBC90A100F074E5 /* CrashReporterClient.h in Headers */,
+				9521A7871BBC90A100F074E5 /* cpu_affinity.h in Headers */,
+				9521A7AA1BBC90A100F074E5 /* setjmp.h in Headers */,
+				9521A7B81BBC90A100F074E5 /* xpr.h in Headers */,
+				9521A77B1BBC90A100F074E5 /* notify_server.h in Headers */,
 				83E57597121E8A0A00295464 /* objc-runtime-old.h in Headers */,
+				9521A79B1BBC90A100F074E5 /* machine_routines.h in Headers */,
 				83E50CE90FF19E8200D74C19 /* objc-runtime.h in Headers */,
+				9521A7731BBC90A100F074E5 /* OSCrossEndian.h in Headers */,
 				83E50CEB0FF19E8200D74C19 /* objc-sel-set.h in Headers */,
 				83E50CEC0FF19E8200D74C19 /* objc-sync.h in Headers */,
+				9521A76D1BBC90A100F074E5 /* private.h in Headers */,
+				9521A7C01BBC90A100F074E5 /* cpu_capabilities.h in Headers */,
 				83E50CED0FF19E8200D74C19 /* objc.h in Headers */,
+				9521A79D1BBC90A100F074E5 /* machine_rpc.h in Headers */,
+				9521A78B1BBC90A100F074E5 /* cpu_data.h in Headers */,
+				9521A78D1BBC90A100F074E5 /* cpu_number.h in Headers */,
 				83E50CEE0FF19E8200D74C19 /* Object.h in Headers */,
 				83E50CEF0FF19E8200D74C19 /* Protocol.h in Headers */,
+				9521A79F1BBC90A100F074E5 /* machlimits.h in Headers */,
+				9521A7991BBC90A100F074E5 /* machine_cpu.h in Headers */,
 				83E50CF00FF19E8200D74C19 /* runtime.h in Headers */,
 				39ABD72512F0B61800D1054C /* objc-weak.h in Headers */,
+				9521A7771BBC90A100F074E5 /* exc_server.h in Headers */,
+				9521A7931BBC90A100F074E5 /* io_map_entries.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,39 +820,86 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9521A7A51BBC90A100F074E5 /* pmap.h in Headers */,
+				9521A7AB1BBC90A100F074E5 /* simple_lock.h in Headers */,
 				830F2A980D738DC200392440 /* hashtable.h in Headers */,
+				9521A7C11BBC90A100F074E5 /* pthread_machdep.h in Headers */,
 				838485BF0D6D687300CEA253 /* hashtable2.h in Headers */,
 				838486260D6D68F000CEA253 /* List.h in Headers */,
+				9521A7801BBC90A100F074E5 /* ast.h in Headers */,
 				838485C30D6D687300CEA253 /* maptable.h in Headers */,
+				9521A7961BBC90A100F074E5 /* locks.h in Headers */,
 				838486280D6D6A2400CEA253 /* message.h in Headers */,
 				834EC0A411614167009B2563 /* objc-abi.h in Headers */,
 				830F2A940D73876100392440 /* objc-accessors.h in Headers */,
+				9521A7C31BBC90A100F074E5 /* vproc_priv.h in Headers */,
 				838485EF0D6D68A200CEA253 /* objc-api.h in Headers */,
+				9521A7841BBC90A100F074E5 /* commpage.h in Headers */,
+				9521A7A01BBC90A100F074E5 /* machparam.h in Headers */,
+				9521A76E1BBC90A100F074E5 /* queue_private.h in Headers */,
+				9521A7781BBC90A100F074E5 /* mach_exc_server.h in Headers */,
 				BC07A00C0EF72D360014EC61 /* objc-auto-dump.h in Headers */,
+				9521A7BD1BBC90A100F074E5 /* cpu_capabilities.h in Headers */,
+				9521A7BB1BBC90A100F074E5 /* cpu_capabilities.h in Headers */,
+				9521A7AD1BBC90A100F074E5 /* task.h in Headers */,
+				9521A7881BBC90A100F074E5 /* cpu_capabilities.h in Headers */,
+				9521A7641BBC90A100F074E5 /* auto_zone.h in Headers */,
+				9521A78E1BBC90A100F074E5 /* db_machdep.h in Headers */,
+				9521A7B51BBC90A100F074E5 /* vm_tuning.h in Headers */,
+				9521A7741BBC90A100F074E5 /* clock_reply_server.h in Headers */,
+				9521A7AF1BBC90A100F074E5 /* thread.h in Headers */,
+				9521A77E1BBC90A100F074E5 /* asm.h in Headers */,
 				838485F00D6D68A200CEA253 /* objc-auto.h in Headers */,
+				9521A7A71BBC90A100F074E5 /* sched_param.h in Headers */,
+				9521A7821BBC90A100F074E5 /* ast_types.h in Headers */,
+				9521A7661BBC90A100F074E5 /* Block_private.h in Headers */,
+				9521A7B91BBC90A100F074E5 /* objc-shared-cache.h in Headers */,
 				838485F40D6D68A200CEA253 /* objc-class.h in Headers */,
 				838485F60D6D68A200CEA253 /* objc-config.h in Headers */,
 				838485F80D6D68A200CEA253 /* objc-exception.h in Headers */,
 				83BE02E80FCCB24D00661494 /* objc-file-old.h in Headers */,
 				83BE02E90FCCB24D00661494 /* objc-file.h in Headers */,
+				9521A76A1BBC90A100F074E5 /* benchmark.h in Headers */,
 				834266D80E665A8B002E4DA2 /* objc-gdb.h in Headers */,
 				838485FB0D6D68A200CEA253 /* objc-initialize.h in Headers */,
 				83112ED40F00599600A5FBAF /* objc-internal.h in Headers */,
+				9521A77C1BBC90A100F074E5 /* dyld_priv.h in Headers */,
 				838485FE0D6D68A200CEA253 /* objc-load.h in Headers */,
 				838486000D6D68A200CEA253 /* objc-loadmethod.h in Headers */,
 				831C85D50E10CF850066E64C /* objc-os.h in Headers */,
+				9521A7701BBC90A100F074E5 /* source_private.h in Headers */,
 				838486030D6D68A200CEA253 /* objc-private.h in Headers */,
+				9521A7B31BBC90A100F074E5 /* trap.h in Headers */,
+				9521A7B11BBC90A100F074E5 /* timer.h in Headers */,
 				393CEAC60DC69E67000B69DE /* objc-references.h in Headers */,
+				9521A7901BBC90A100F074E5 /* endian.h in Headers */,
 				838486070D6D68A200CEA253 /* objc-runtime-new.h in Headers */,
+				9521A7941BBC90A100F074E5 /* lock.h in Headers */,
+				9521A7681BBC90A100F074E5 /* CrashReporterClient.h in Headers */,
+				9521A7861BBC90A100F074E5 /* cpu_affinity.h in Headers */,
+				9521A7A91BBC90A100F074E5 /* setjmp.h in Headers */,
+				9521A7B71BBC90A100F074E5 /* xpr.h in Headers */,
+				9521A77A1BBC90A100F074E5 /* notify_server.h in Headers */,
 				83BE02EA0FCCB24D00661494 /* objc-runtime-old.h in Headers */,
+				9521A79A1BBC90A100F074E5 /* machine_routines.h in Headers */,
 				8384860A0D6D68A200CEA253 /* objc-runtime.h in Headers */,
+				9521A7721BBC90A100F074E5 /* OSCrossEndian.h in Headers */,
 				8384860C0D6D68A200CEA253 /* objc-sel-set.h in Headers */,
 				838486100D6D68A200CEA253 /* objc-sync.h in Headers */,
+				9521A76C1BBC90A100F074E5 /* private.h in Headers */,
+				9521A7BF1BBC90A100F074E5 /* cpu_capabilities.h in Headers */,
 				838486130D6D68A200CEA253 /* objc.h in Headers */,
+				9521A79C1BBC90A100F074E5 /* machine_rpc.h in Headers */,
+				9521A78A1BBC90A100F074E5 /* cpu_data.h in Headers */,
+				9521A78C1BBC90A100F074E5 /* cpu_number.h in Headers */,
 				838486140D6D68A200CEA253 /* Object.h in Headers */,
 				8384861E0D6D68A800CEA253 /* Protocol.h in Headers */,
+				9521A79E1BBC90A100F074E5 /* machlimits.h in Headers */,
+				9521A7981BBC90A100F074E5 /* machine_cpu.h in Headers */,
 				838486200D6D68A800CEA253 /* runtime.h in Headers */,
 				39ABD72312F0B61800D1054C /* objc-weak.h in Headers */,
+				9521A7761BBC90A100F074E5 /* exc_server.h in Headers */,
+				9521A7921BBC90A100F074E5 /* io_map_entries.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,6 +1041,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9521A7A31BBC90A100F074E5 /* Makefile in Sources */,
 				830F2AB10D73962200392440 /* markgc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -688,6 +1055,7 @@
 				83E50D150FF19E8200D74C19 /* List.m in Sources */,
 				8383A3AC122600FB009290B8 /* a1a2-blocktramps-arm.s in Sources */,
 				8383A3AD122600FB009290B8 /* a2a3-blocktramps-arm.s in Sources */,
+				9521A7A41BBC90A100F074E5 /* Makefile in Sources */,
 				8383A3AE122600FB009290B8 /* hashtable2.mm in Sources */,
 				8383A3AF122600FB009290B8 /* maptable.mm in Sources */,
 				8383A3B0122600FB009290B8 /* objc-accessors.mm in Sources */,
@@ -741,6 +1109,7 @@
 				838485F10D6D68A200CEA253 /* objc-auto.m in Sources */,
 				838485F20D6D68A200CEA253 /* objc-cache.mm in Sources */,
 				838485F30D6D68A200CEA253 /* objc-class-old.m in Sources */,
+				9521A7A21BBC90A100F074E5 /* Makefile in Sources */,
 				838485F50D6D68A200CEA253 /* objc-class.mm in Sources */,
 				838485F70D6D68A200CEA253 /* objc-errors.mm in Sources */,
 				838485F90D6D68A200CEA253 /* objc-exception.mm in Sources */,
@@ -875,8 +1244,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				"CLANG_CXX_LIBRARY[sdk=iphoneos*]" = "libstdc++";
 				"CLANG_CXX_LIBRARY[sdk=iphonesimulator*]" = "libstdc++";
-				CLANG_OBJC_RUNTIME = NO;
 				CLANG_LINK_OBJC_RUNTIME = NO;
+				CLANG_OBJC_RUNTIME = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
@@ -909,8 +1278,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				"CLANG_CXX_LIBRARY[sdk=iphoneos*]" = "libstdc++";
 				"CLANG_CXX_LIBRARY[sdk=iphonesimulator*]" = "libstdc++";
-				CLANG_OBJC_RUNTIME = NO;
 				CLANG_LINK_OBJC_RUNTIME = NO;
+				CLANG_OBJC_RUNTIME = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
