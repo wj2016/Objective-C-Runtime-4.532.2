@@ -1198,7 +1198,6 @@
 				"OTHER_LDFLAGS[sdk=iphoneos*][arch=*]" = "-lc++abi";
 				"OTHER_LDFLAGS[sdk=iphonesimulator*][arch=*]" = "-l_BUILD_objc-simulator_TARGET_INSTEAD";
 				"OTHER_LDFLAGS[sdk=macosx*]" = (
-					"-lCrashReporterClient",
 					"-lauto",
 					"-lc++abi",
 				);
@@ -1238,7 +1237,6 @@
 				"OTHER_LDFLAGS[sdk=iphoneos*][arch=*]" = "-lc++abi";
 				"OTHER_LDFLAGS[sdk=iphonesimulator*][arch=*]" = "-l_BUILD_objc-simulator_TARGET_INSTEAD";
 				"OTHER_LDFLAGS[sdk=macosx*]" = (
-					"-lCrashReporterClient",
 					"-lauto",
 					"-lc++abi",
 				);
